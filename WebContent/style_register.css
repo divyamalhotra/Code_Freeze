@@ -1,0 +1,37 @@
+ body {
+    background-image:url('snw.jpg');
+    background-size:cover;
+    background-repeat: no-repeat round;
+    height:100%;
+    width:100%;
+    display: inline-block;/*not doing anything*/
+    
+}
+h1,h3{
+  font-family: Share Tech Mono;
+  line-height: 0;
+  
+}
+#select {
+  font-size: 60px;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+input[type=number]{
+    width: 25px;
+} 
+form{
+  text-align: center;
+  font-family: Space Mono;
+  color: #fbefc6;
+  margin: 0 auto;
+  width: 500px;
+  padding: 1px 90px;
+}
+h3{
+	font-size: 60px;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}

@@ -1,0 +1,111 @@
+body{
+
+position: absolute;
+
+top:-10px;
+
+width: 125%;
+
+height:175%;
+
+background-repeat:no-repeat;
+
+background-size: cover;
+font-family: 'Gaegu', cursive;
+background-image: url('bg.gif');
+
+background-size:cover;
+
+   /* animation: animatedBackground 60s linear infinite;*/
+
+    /*background-repeat: no-repeat round;
+
+    background-repeat:repeat round;
+*/
+    background-attachment: fixed;
+
+    height:100%;
+
+    width:100%;
+
+
+}
+
+
+.head{
+
+	font-family: 'Gaegu', cursive;
+
+
+	position: absolute;
+
+	left: 580px;
+
+}
+
+.list{
+
+	position: absolute;
+
+	top: 80px;
+
+	left:60px;
+
+	font-size: 30px;
+
+	color: white;
+
+}
+
+.l1{
+
+	padding: 20px;
+
+}
+
+.l2{
+
+	padding: 20px;
+
+}
+
+.l3{
+
+	padding: 20px;
+
+}
+
+.l4{
+
+	padding: 20px;
+
+}
+
+.l5{
+
+	padding: 20px;
+
+}
+
+.l6{
+
+	padding: 20px;
+
+}
+
+.l7{
+
+	padding: 20px;
+
+}
+button{
+	width:350px;
+	
+
+}
+.soundtrack{
+
+	visibility: hidden;
+
+}
+

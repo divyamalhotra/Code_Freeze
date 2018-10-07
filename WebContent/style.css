@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
+html {
+   height: 100%;
+}
+
+body
+{
+   background-image: url(newback.png);
+   background-repeat: no-repeat;
+   
+   background-position: absolute;
+   background-size: cover;
+}
+
+h2 { 
+   
+   padding-top: 0%;
+   color: white;
+   text-align: center;
+   font-family:Metal Mania;
+   font-size:50px;
+}
+
+h1{
+   font-size: 5em;
+    text-shadow: 0px 3px 0px #b2a98f,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+   margin-left:5%;
+}
+
+.line
+{
+    padding-top: 15%;
+    padding-left: 25%;
+    font-family: 'Shojumaru', cursive;
+    color: white;
+    font-size: 4em;
+    
+}
+
+
+/*
+#sidebar {
+   padding: 0px;
+   height: 100%;
+   width: 220px;
+   position: fixed;
+   background: #151719;
+   font-family: sans-serif;
+   left: -220px;
+   transition: all 500ms linear;
+}
+*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image:url('https://daily.wordreference.com/wp-content/uploads/2016/12/freeze.jpg');
+    background-size:cover;
+   
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5%;
+    
+}
+
+.sidenav a {
+    padding: 10px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #008000;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(100,100, 100,0.3);
+    display: block;
+    transition: 0.3s;
+    font-family: 'Mali', cursive;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    color:#004080;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding-left: 20px;
+    margin-top:-20%;
+}
+
+span {
+    padding-top: 0%;
+    color: white;
+    font-family:'Mali';
+    font-style:bold;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+  
+/*
+.w3-bar-item
+{
+   width:100%;
+   display:block;
+   padding:8px 16px;
+   text-align:left;
+   border:none;
+   white-space:normal;
+   float:none;
+   outline: 0
+}
+
+.w3-button{
+   width: 100%;
+}
+
+.w3-padding-large{
+   padding:12px 24px
+} */
+

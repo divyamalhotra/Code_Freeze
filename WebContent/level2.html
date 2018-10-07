@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+	<title>Level2</title>
+<style>
+body{
+	/*background-image: url("bg2.gif");*/
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;	
+	/*font-family: 'VT323', monospace;*/
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+.content{
+	float: left;
+	font-size: 50px;
+	vertical-align: middle;
+	color:white;
+	margin-left:40%;
+	padding: 10%;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    top: -90px;
+    min-width: 100%; 
+    min-height: 100%;
+}
+video{
+	object-fit: fill;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: relative;
+    bottom: 0;
+    /*background: rgba(0, 0, 0, 0.5);*/  	
+    color: #14043A;
+    padding: 20px;
+    top: 70px;
+    margin-top: 100px;
+    font-size: 90px;
+    margin-left: 30%;
+    font-size: 150px;
+}
+
+</style>
+</head>
+<body>
+	<!--<iframe src="https://giphy.com/embed/at2U9pDbkLahi" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/head-headbanging-headbanger-at2U9pDbkLahi">via GIPHY</a></p>-->
+	<video autoplay muted loop id="myVideo">
+  <source src="one.mp4" type="video/mp4">
+</video>
+<div class="content">
+	LEVEL 2
+	<!--<div class="sub_content">
+		You are on for the next level
+	</div>-->
+</div>
+<script>
+setTimeout(function(){
+                        	
+                        	window.location.href="ques21.jsp";
+                        },5000);
+</script>
+</body>
+</html>

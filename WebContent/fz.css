@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+body{
+	top: -10%;
+	background-image:url('https://media.giphy.com/media/pMtJe9R8EbSpO/source.gif');
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#myTimer{
+
+	font-family: Eater;
+
+	font-size: 50px;
+
+	text-align:right;
+	
+	margin-top: 5px;
+
+	text-shadow:-3px 0 red, 0 3px red, 3px 0 red, 0 -3px red, 5px 5px 10px red;
+
+	font-style: bold;
+
+}
+#demo{
+
+	font-family: Eater;
+
+	font-size: 50px;
+
+	text-align:right; 
+
+	margin-top: 5px;
+
+	text-shadow:-3px 0 red, 0 3px red, 3px 0 red, 0 -3px red, 5px 5px 10px red;
+
+	font-style: bold;
+
+}
+#hd{
+	text-align: center;
+	margin-top:7%;
+	color: brown;
+	font-family:Eater;
+	text-shadow:-3px 0 #ceb78c, 0 3px #c27630, 3px 0 white, 0 -3px #b6d6cb, 5px 5px 10px #b6d6cb;
+}
+#wrapper {
+  text-align:center;
+  border:1px solid #7F7F7F;
+  width:150px;
+  margin:25px auto;
+  padding:25px;
+  background-color:#E3E4E4;
+}
+
+
+#myBtn {
+  width:170px;
+  padding:10px;
+  text-align:center;
+  margin-left:45%;
+  height:50px;
+  font-family: Space Mono;
+  font-size: 20px;
+  color:#0080c0;
+  top:20%;
+ 
+}
+
+.btnEnable {
+  background-color:#E6F9D2;
+  border:1px solid #97DE4C;
+  color:#232323;
+  cursor:pointer;
+}
+
+.btnDisable {
+  background-color:#FCBABA;
+  border:1px solid #DD3939;
+  color:#232323;
+  cursor:wait;
+}

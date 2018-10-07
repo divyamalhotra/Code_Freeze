@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+#myBtn {
+  width:170px;
+  padding:10px;
+  text-align:center;
+  margin-left:45%;
+  height:50px;
+  font-family: Space Mono;
+  font-size: 20px;
+  color:#0080c0;
+}
